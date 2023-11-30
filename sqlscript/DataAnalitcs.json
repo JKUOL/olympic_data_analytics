@@ -1,0 +1,17 @@
+{
+	"name": "DataAnalitcs",
+	"properties": {
+		"content": {
+			"query": "-- Count the number of athletes from each country:\nSELECT Country, Count(*) AS TotalAthletes\nFrom athletes\nGROUP BY Country\nORDER BY TotalAthletes DESC;\n\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "TokyoOlympicsDB",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

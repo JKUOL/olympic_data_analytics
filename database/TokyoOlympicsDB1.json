@@ -1,0 +1,22 @@
+{
+	"name": "TokyoOlympicsDB1",
+	"properties": {
+		"Name": "TokyoOlympicsDB1",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://tokyo-olympics-data@tokyoolimpicsdata.dfs.core.windows.net/TokyoOlympicsDB1",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "AzureDataLakeStorage1"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
