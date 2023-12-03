@@ -2,7 +2,9 @@
 
 
 ## Description
-This project involves creating an ETL (Extract, Transform, Load) pipeline in Azure to analyze data from the 2021 Tokyo Olympics. The data, sourced from a [Kaggle Dataset]([https://developer.spotify.com/documentation/web-api](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)), is processed using Azure Data Factory, stored in Azure Data Lake Storage Gen2, transformed using Azure Databricks, and analyzed with SQL queries in Azure Synapse.
+This project involves creating an ETL (Extract, Transform, Load) pipeline in Azure to analyze data from the 2021 Tokyo Olympics. The data, sourced from a [Kaggle Dataset](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo)), is processed using Azure Data Factory, stored in Azure Data Lake Storage Gen2, transformed using Azure Databricks, and analyzed with SQL queries in Azure Synapse.
+
+This project is done with the help of the [Azure End-To-End Data Engineering Project]([https://www.youtube.com/watch?v=IaA9YNlg5hM)
 
 ### Architecture
 ![Architecture Diagram](https://github.com/JKUOL/olympic_data_analytics/blob/main/schema/schema.png)
